@@ -4,42 +4,42 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8">
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="588" y="224" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="308" y="89" width="280" height="280" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Flight Information System (Monolith)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="3" value="Flight Information System (Monolith)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="308" y="89" width="220" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="FlightSearchService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="FlightSearchService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="338" y="122" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="FlightStatusService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="FlightStatusService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="338" y="173" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="BookingManagementService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="BookingManagementService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="338" y="223" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="PassengerDataManagementService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="PassengerDataManagementService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="338" y="273" width="220" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Central Database (RDBMS)&lt;br&gt;(Data, Logs)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                <mxCell id="8" value="Central Database (RDBMS)&lt;br&gt;(Data, Logs)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
                     <mxGeometry x="738" y="149" width="140" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Master Data&lt;br&gt;Transaction Data&lt;br&gt;Log Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="16" value="Master Data&lt;br&gt;Transaction Data&lt;br&gt;Log Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="598" y="170" width="110" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.004;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19" target="2">
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.004;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="Customer&lt;br&gt;(Web App)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="19" value="Customer&lt;br&gt;(Web App)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="108" y="184" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;u&gt;&lt;i&gt;Other Services, Integrations &amp;amp; Utilities&lt;/i&gt;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="21" value="&lt;u&gt;&lt;i&gt;Other Services, Integrations &amp;amp; Utilities&lt;/i&gt;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="338" y="322" width="220" height="40" as="geometry"/>
                 </mxCell>
             </root>
@@ -159,6 +159,68 @@
                 </mxCell>
                 <mxCell id="hM8DisS7Gj-5HCy1pa1a-25" value="Microservices will interact through" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
                     <mxGeometry x="734" y="200" width="200" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="fBoX17RIuS7zudZZV2ow" name="Programming Assignment">
+        <mxGraphModel dx="798" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="176" y="80" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-7" style="edgeStyle=none;html=1;entryX=-0.011;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u0NKot1Zja5ltzUhsVtd-1" target="u0NKot1Zja5ltzUhsVtd-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-1" value="Client&lt;br&gt;(Postman)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="2" y="200" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-4" value="Ubuntu Server&lt;br&gt;(Azure VM)&lt;br&gt;PIP: 20.122.46.168" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="206" y="80" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="160" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-2" value="Flight Status Service&lt;br&gt;(Spring Boot Application)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="220" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-6" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-8" value="HTTP&lt;br&gt;Port: 80" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="95" y="210" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-9" value="Flight Data&lt;br&gt;(MongoDB Atlas)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="10" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-10" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=30;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0NKot1Zja5ltzUhsVtd-9" target="u0NKot1Zja5ltzUhsVtd-3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="530" y="150" as="sourcePoint"/>
+                        <mxPoint x="670" y="30" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-11" value="READ operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="110" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-15" style="edgeStyle=none;html=1;entryX=0.636;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u0NKot1Zja5ltzUhsVtd-12" target="u0NKot1Zja5ltzUhsVtd-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-12" value="Metrics Data&lt;br&gt;(Elasticsearch Cloud)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="270" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.629;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="u0NKot1Zja5ltzUhsVtd-3" target="u0NKot1Zja5ltzUhsVtd-12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="360" as="sourcePoint"/>
+                        <mxPoint x="560" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-14" value="Kibana Dashboard" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="420" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="u0NKot1Zja5ltzUhsVtd-16" value="WRITE operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="270" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
